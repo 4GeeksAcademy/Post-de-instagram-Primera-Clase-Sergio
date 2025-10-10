@@ -11,8 +11,8 @@ main {
 article{
   max-width: 450px;
   margin: auto;
-  padding: 0.5rem;
   background-color: white;
+  border-radius: 1rem;
 }
 
 header, .post-interaction{
@@ -22,20 +22,36 @@ header, .post-interaction{
   margin-bottom: 0.5rem;
 }
 
+header {
+  padding: 1rem;
+}
+
 .header-info {
   display: flex;
   place-items: center;
 }
 
+.header-text p {
+  margin: 0px;
+}
+
+.icono {
+  font-size: 2rem;
+}
+
+figure {
+  margin: 0px;
+}
+
 img {
   width: 100%;
-  height: auto;
 }
 
 .post-interaction {
-  margin: 0.5rem;
+  margin: 1.5rem;
 }
 
-.parrafos {
-  margin: 0.5rem;
+.footer-text {
+  padding: 1.5rem;
+  padding-top: 0;
 }
